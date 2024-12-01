@@ -7,6 +7,7 @@ import Layout from './Layout/Layout'
 import Home from './components/Home/Home'
 import AboutUs from './components/AboutUs/AboutUs'
 import Services from './components/Services/Services'
+import ContactUs from './components/ContactUs/ContactUs'
 
 
 const router= createBrowserRouter([
@@ -28,7 +29,7 @@ const router= createBrowserRouter([
       },
       {
         path:"/contact",
-        element:<h1>Contact</h1>
+        element:<ContactUs/>
       }
     ]
   }

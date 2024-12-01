@@ -1,5 +1,6 @@
 import CaseStudies from "../CaseStudies/CaseStudies";
 import ClientTestimonials from "../ClientTestimonials/ClientTestimonials";
+import Partnerships from "../Partnerships/Partnerships";
 import ProductsAndSolutions from "../ProductsAndSolutions/ProductsAndSolutions";
 import TechnologyInnovation from "../TechnologyInnovation/TechnologyInnovation";
 
@@ -75,6 +76,7 @@ const Home = () => {
     <CaseStudies/>
     <ProductsAndSolutions/>
     <ClientTestimonials/>
+    <Partnerships/>
 
     
     </>
