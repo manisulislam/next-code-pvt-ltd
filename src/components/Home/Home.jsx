@@ -1,8 +1,11 @@
 import CaseStudies from "../CaseStudies/CaseStudies";
 import ClientTestimonials from "../ClientTestimonials/ClientTestimonials";
+import CompanyValues from "../CompanyValues/CompanyValues";
+import OurJourney from "../OurJourney/OurJourney";
 import Partnerships from "../Partnerships/Partnerships";
 import ProductsAndSolutions from "../ProductsAndSolutions/ProductsAndSolutions";
 import TechnologyInnovation from "../TechnologyInnovation/TechnologyInnovation";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
 
 const Home = () => {
@@ -77,6 +80,9 @@ const Home = () => {
     <ProductsAndSolutions/>
     <ClientTestimonials/>
     <Partnerships/>
+    <WhyChooseUs/>
+    <OurJourney/>
+    <CompanyValues/>
 
     
     </>
