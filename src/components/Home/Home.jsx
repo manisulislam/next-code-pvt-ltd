@@ -4,6 +4,7 @@ import CompanyValues from "../CompanyValues/CompanyValues";
 import OurJourney from "../OurJourney/OurJourney";
 import Partnerships from "../Partnerships/Partnerships";
 import ProductsAndSolutions from "../ProductsAndSolutions/ProductsAndSolutions";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import TechnologyInnovation from "../TechnologyInnovation/TechnologyInnovation";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
@@ -83,6 +84,7 @@ const Home = () => {
     <WhyChooseUs/>
     <OurJourney/>
     <CompanyValues/>
+    <ScrollToTop/>
 
     
     </>
