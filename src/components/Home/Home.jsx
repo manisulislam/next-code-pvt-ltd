@@ -1,4 +1,6 @@
 import CaseStudies from "../CaseStudies/CaseStudies";
+import ClientTestimonials from "../ClientTestimonials/ClientTestimonials";
+import ProductsAndSolutions from "../ProductsAndSolutions/ProductsAndSolutions";
 import TechnologyInnovation from "../TechnologyInnovation/TechnologyInnovation";
 
 
@@ -71,7 +73,9 @@ const Home = () => {
 
     <TechnologyInnovation/>
     <CaseStudies/>
-    
+    <ProductsAndSolutions/>
+    <ClientTestimonials/>
+
     
     </>
   );
