@@ -1,4 +1,7 @@
-
+import img from "../../assets/images/about.jpg"
+import leadImg from "../../assets/images/lead.jpg"
+import ctoImg from "../../assets/images/cto.jpeg"
+import ceoImg from "../../assets/images/ceo.jpg"
 
 const AboutUs = () => {
   return (
@@ -13,7 +16,7 @@ const AboutUs = () => {
           and delivering solutions that empower businesses to thrive in a digital-first world.
         </p>
         <img
-          src="https://source.unsplash.com/1200x600/?technology,team"
+          src={img}
           alt="About Us"
           className="rounded-lg shadow-lg mx-auto max-w-full"
         />
@@ -57,7 +60,7 @@ const AboutUs = () => {
           {/* Team Member 1 */}
           <div className="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <img
-              src="https://source.unsplash.com/200x200/?person,portrait"
+              src={ceoImg}
               alt="Team Member"
               className="w-32 h-32 rounded-full mx-auto mb-4"
             />
@@ -67,7 +70,7 @@ const AboutUs = () => {
           {/* Team Member 2 */}
           <div className="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <img
-              src="https://source.unsplash.com/200x200/?person,developer"
+              src={ctoImg}
               alt="Team Member"
               className="w-32 h-32 rounded-full mx-auto mb-4"
             />
@@ -77,7 +80,7 @@ const AboutUs = () => {
           {/* Team Member 3 */}
           <div className="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <img
-              src="https://source.unsplash.com/200x200/?person,designer"
+              src={leadImg}
               alt="Team Member"
               className="w-32 h-32 rounded-full mx-auto mb-4"
             />
