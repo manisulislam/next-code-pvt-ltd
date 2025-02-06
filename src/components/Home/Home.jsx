@@ -18,7 +18,7 @@ const Home = () => {
     <div className="bg-gradient-to-b from-blue-100 via-teal-50 to-blue-50 min-h-screen">
       {/* Hero Section */}
       <section className="text-center py-16 px-6 lg:px-24">
-        <h1 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6 mt-28">
           Welcome to <span className="text-teal-500">Next Code Pvt Ltd</span>
         </h1>
         <p className="text-base md:text-lg text-gray-700 mb-8">
